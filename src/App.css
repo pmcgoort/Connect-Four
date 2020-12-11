@@ -1,0 +1,63 @@
+.space-0{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.space-1{
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.space-2{
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.row{
+  display: inline-block;
+}
+
+.button{
+  background-color: white;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 30px solid blue;
+  border-bottom: 0px solid white;
+}
+
+.button:hover{
+  border-top: 30px solid red
+}
+
+.empty{
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+}
+
+#main{
+  position: relative;
+  top: 200px;
+  left: 400px;
+}
+
+.gap{
+  height:50px
+}
